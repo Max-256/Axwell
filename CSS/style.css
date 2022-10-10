@@ -257,3 +257,26 @@ a{
         font-size: 1.5rem;
     }
 }
+
+
+/* Inputs */
+
+
+.input{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: 0;
+    padding: 1.5rem 3.5rem;
+    color: var(--color-heading);
+    font-size: 2rem;
+}
+
+::placeholder{
+    color: lightgray;
+}
+
+@media screen and (min-width: 1024px) {
+    .input{
+        font-size: 1.5rem;
+    }
+}
