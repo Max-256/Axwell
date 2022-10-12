@@ -824,3 +824,40 @@ a{
         margin: 0 1rem;
     }
 }
+
+
+/* features */
+
+.feature{
+    gap: 4rem 2rem;
+    margin: 10rem 0;
+}
+
+.feature__heading{
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.feature > img{
+    width: 100%;
+}
+
+.feature__icon{
+    background: #f3f9fa;
+}
+
+.feature__content{
+    font-size: 1.9rem;
+    width: 100%;
+}
+
+.feature:first-of-type{
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+.feature__content{
+    font-size: 1.5rem;
+  }
+}
