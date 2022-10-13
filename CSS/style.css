@@ -226,7 +226,7 @@ a{
     font-size: 1.8rem;
     font-weight: 600;
     margin: 1rem 0;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -331,6 +331,7 @@ a{
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 4rem;
+    width: 70%;
 }
 
 .input-group .btn{
@@ -823,7 +824,6 @@ a{
 
 @media screen and (min-width: 1024px) {
     .container{
-        display: flex;
         justify-content: center;
     }
 
@@ -890,12 +890,13 @@ a{
 
 
 .showcase__hero{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 90%);
+    padding: 5rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 95%);
 }
 
-.c-pannel__heading{
+.showcase__heading{
+    margin-top: 0rem;
     color: white;
-    padding-bottom: 4rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -987,4 +988,43 @@ a{
         padding: 0 4rem;
     }
 }
+
+
+/* bottom-section */
+
+.bottom__section{
+    margin-top: 2rem;
+}
+
+
+.bottom__section .footer{
+    padding-top: 5rem;
+}
+
+.bottom__section .callout{
+    margin: 0 2rem;
+    padding: 1rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .bottom__section{
+        position: relative;
+        padding-top: 8rem;
+        
+    }
+    .bottom__section .callout{
+        width: 60%;
+        margin-left: 0.2rem;
+        padding: 1.5rem 1rem;
+        position: absolute;
+        top: 0rem;
+        left: 20%;
+    }
+
+    .bottom__section .footer{
+        padding-top: 10rem;
+    }
+}
+
 
